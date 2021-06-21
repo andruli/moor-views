@@ -1,0 +1,5 @@
+import 'entities/person.dart';
+
+CREATE VIEW persons_with_full_name AS
+SELECT id, name, last_name, '...' AS full_name
+FROM persons;
